@@ -1,0 +1,4 @@
+<!-- Wazuh custom rules (IDs 100000-109999) -->
+<group name="local,">
+
+</group>

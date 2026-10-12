@@ -1,0 +1,27 @@
+# Secrets & credentials - NEVER commit
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+.env
+*.env
+secrets/
+passwords*
+*password*.txt
+
+# Raw logs / large artifacts
+*.pcap
+*.pcapng
+*.log
+*.evtx
+*.dmp
+*.vmdk
+*.ova
+*.iso
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
