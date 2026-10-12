@@ -20,26 +20,6 @@ _Author: Soufiane Moussaoui — Cybersecurity Engineering Student (EMSI) — [gi
 ## 📑 Table of Contents
 
 1. [Project Overview](#1-project-overview)
-2. [Objectives & Scope](#2-objectives--scope)
-3. [Architecture Overview](#3-architecture-overview)
-4. [Network Design](#4-network-design)
-5. [Component Inventory](#5-component-inventory)
-6. [Log Sources & Data Flow](#6-log-sources--data-flow)
-7. [Security Controls & Firewall Policy](#7-security-controls--firewall-policy)
-8. [Detection Engineering](#8-detection-engineering)
-9. [Attack Simulation & Validation Plan](#9-attack-simulation--validation-plan)
-10. [Incident Response Design](#10-incident-response-design)
-11. [Dashboards & Visualization](#11-dashboards--visualization)
-12. [Resource Planning](#12-resource-planning)
-13. [Repository Structure](#13-repository-structure)
-14. [Installation & Configuration Guide](#14-installation--configuration-guide)
-15. [Testing, Metrics & Evidence](#15-testing-metrics--evidence)
-16. [Hardening & Lab Safety](#16-hardening--lab-safety)
-17. [Troubleshooting](#17-troubleshooting)
-18. [Roadmap](#18-roadmap)
-19. [Legal & Ethical Notice](#19-legal--ethical-notice)
-20. [References](#20-references)
-21. [Appendix](#appendix)
 
 ---
 
