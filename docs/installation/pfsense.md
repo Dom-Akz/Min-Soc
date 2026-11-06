@@ -1,11 +1,5 @@
 # pfSense: NGFW and Network Segmentation
 
-> Repo location: `configs/pfsense/README.md`
-> Replaces the earlier 3-zone version of this file.
-> Role: pfSense + the Suricata package running inline is the NGFW layer —
-> stateful firewall, mandatory pivot path, and inline intrusion
-> prevention, all logged to the SOC for evidence.
-
 ## 1. What this does
 
 - Splits the lab into 5 zones behind one firewall: **ATTACK, DMZ, SERVERS, DB, SOC** (plus WAN).
