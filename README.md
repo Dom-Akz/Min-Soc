@@ -27,15 +27,16 @@ _Author: Soufiane Moussaoui — Cybersecurity Engineering Student (EMSI) — [gi
 
 **Mini SOC** is a home-lab Security Operations Center built entirely in a virtualized environment. It reproduces, at small scale, the core capabilities of an enterprise SOC:
 
-| SOC Capability                             | Implementation in this lab                                          |
-| ------------------------------------------ | ------------------------------------------------------------------- |
-| Network segmentation & perimeter control   | **pfSense** (VLANs, inter-VLAN firewall policy)                     |
-| Host-based detection (HIDS/EDR-like)       | **Wazuh** agents on Windows (with **Sysmon**) and Linux             |
-| Network-based detection (NIDS)             | **Suricata** sensor                                                 |
-| Log centralization, search & visualization | **ELK Stack** (Elasticsearch, Logstash, Kibana)                     |
-| Detection engineering                      | Custom rules aligned with **MITRE ATT&CK**                          |
-| Adversary emulation / validation           | **Kali Linux** + **Atomic Red Team**                                |
-| Incident response                          | Documented playbooks following the NIST incident handling lifecycle |
+| SOC Capability                             | Implementation in this lab                                                                                              |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| Network segmentation & perimeter control   | **pfSense** NGFW — default-deny between zones; attacker has no direct route past the DMZ, must pivot DMZ → Servers → DB |
+| Security baseline                          | Minimum controls aligned with **ISO 27001** Annex A (segmentation, access control, logging, backup)                     |
+| Host-based detection (HIDS/EDR-like)       | **Wazuh** agents on Windows (with **Sysmon**) and Linux                                                                 |
+| Network-based detection (NIDS)             | **Suricata** sensor                                                                                                     |
+| Log centralization, search & visualization | **ELK Stack** (Elasticsearch, Logstash, Kibana)                                                                         |
+| Detection engineering                      | Custom rules aligned with **MITRE ATT&CK**                                                                              |
+| Adversary emulation / validation           | **Kali Linux** + **Atomic Red Team**                                                                                    |
+| Incident response                          | Documented playbooks following the NIST incident handling lifecycle                                                     |
 
 > **Project status:** 🚧 _In progress._ This document is the **design baseline** (architecture & conception). Installation and configuration details are tracked in [Section 14](#14-installation--configuration-guide) and will be completed as each component is deployed.
 
